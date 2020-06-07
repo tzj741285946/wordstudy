@@ -1,0 +1,319 @@
+{
+    "message":[
+        {
+            "content":" I'm afraid this painting is not by Picasso. It's only a copy and so it's _____.",
+            "A":"priceless",
+            "B":"invaluable",
+            "C":" unworthy",
+            "D":"worthless",
+            "answers":"D",
+            "analysis":""
+        },
+        {
+            "content":"The final _____ of the play will take place on Monday.",
+            "A":"action",
+            "B":"performance",
+            "C":"view",
+            "D":"sight",
+            "answers":"B",
+            "analysis":""
+        },
+        {
+            "content":"To get my travelers' checks I had to have the bank _____ a special check for the total amount.",
+            "A":" make up",
+            "B":"make out",
+            "C":"make for",
+            "D":" make up for",
+            "answers":"B",
+            "analysis":""
+        },
+        {
+            "content":" I used to be able to play well but I'm _____ now.",
+            "A":"out of date",
+            "B":"out of touch",
+            "C":"out of practice",
+            "D":"out of place",
+            "answers":"C",
+            "analysis":""
+        },
+        {
+            "content":"As soon as the children were _____, their mother got them out of bed and into the bathroom.",
+            "A":"woke",
+            "B":"waken",
+            "C":"wake",
+            "D":"awake",
+            "answers":"D",
+            "analysis":""
+        },
+        {
+            "content":"The government's strong action showed its _____ to crush the rebellion.",
+            "A":"energy",
+            "B":"brief",
+            "C":"determination",
+            "D":"encourage",
+            "answers":"C",
+            "analysis":""
+        },
+        {
+            "content":"When she heard from the hospital that her father had died, she _____ into tears.",
+            "A":"burst",
+            "B":"went",
+            "C":"exploded",
+            "D":"fell",
+            "answers":"A",
+            "analysis":""
+        },
+        {
+            "content":"_____ the English examination I would have gone to the concert last Sunday.",
+            "A":"In spite of",
+            "B":"But for",
+            "C":"Because of",
+            "D":"As for",
+            "answers":"B",
+            "analysis":""
+        },
+        {
+            "content":"People who live in a small village are bound to see a good ___ of each other.",
+            "A":"sum",
+            "B":"quantity",
+            "C":"deal",
+            "D":"amount",
+            "answers":"C",
+            "analysis":""
+        },
+        {
+            "content":"They always kept on good _____ with their next-door neighbors for the children's sake.",
+            "A":"friendship",
+            "B":"relations",
+            "C":"relatives",
+            "D":"terms",
+            "answers":"D",
+            "analysis":""
+        },
+        {
+            "content":"The generation _____ makes it difficult for parents to understand their children's opinions.",
+            "A":"division",
+            "B":"gap",
+            "C":"separation",
+            "D":"valley",
+            "answers":"B",
+            "analysis":""
+        },
+        {
+            "content":"If the boy had _____ the dog alone it wouldn't have bitten him.",
+            "A":"set",
+            "B":"left",
+            "C":"had",
+            "D":"put",
+            "answers":"B",
+            "analysis":""
+        },
+        {
+            "content":" I hope my teacher will take my recent illness into _____ when judging my examination.",
+            "A":"friendship",
+            "B":"relations",
+            "C":"relatives",
+            "D":"terms",
+            "answers":"B",
+            "analysis":""
+        },
+        {
+            "content":"Roses are quite _____ flowers in English gardens.",
+            "A":"ordinary",
+            "B":"common",
+            "C":"usual",
+            "D":"general",
+            "answers":"B",
+            "analysis":""
+        },
+        {
+            "content":" We can't _____ one to change the habits of a lifetime in a short time.",
+            "A":"hope",
+            "B":"wait",
+            "C":"expect",
+            "D":"imagine",
+            "answers":"C",
+            "analysis":""
+        },
+        {
+            "content":" Jack is good, kind, hard-working and intelligent. _____, I can't speak too highly of him.",
+            "A":"As a result",
+            "B":"By the way",
+            "C":"In any case",
+            "D":"In a word",
+            "answers":"D",
+            "analysis":""
+        },
+        {
+            "content":"When I took his temperature, it was two degrees above _____,",
+            "A":"average",
+            "B":"ordinary",
+            "C":"regular",
+            "D":"normal",
+            "answers":"D",
+            "analysis":""
+        },
+        {
+            "content":" He has left his book here on _____, so that you can read it.",
+            "A":"purpose",
+            "B":"design",
+            "C":"aim",
+            "D":"meaning",
+            "answers":"A",
+            "analysis":""
+        },
+        {
+            "content":" The open university was started in order to help those who _____ having a university education when they were young.",
+            "A":"stopped",
+            "B":"failed ",
+            "C":"missed ",
+            "D":"paused",
+            "answers":"C",
+            "analysis":""
+        },
+        {
+            "content":" His _____of the aeroplane was correct in every detail and could really fly.",
+            "A":"shape ",
+            "B":"pattern ",
+            "C":"design ",
+            "D":"model",
+            "answers":"D",
+            "analysis":""
+        },
+        {
+            "content":"It isn't so much whether he works hard; the question is whether he works _____.",
+            "A":"above all",
+            "B":" in all ",
+            "C":" at all",
+            "D":"after all",
+            "answers":"C",
+            "analysis":""
+        },
+        {
+            "content":"Mary had taken _____ to see that her guests had everything that they could possibly want.",
+            "A":"efforts ",
+            "B":"pains ",
+            "C":"attempts ",
+            "D":"advantage",
+            "answers":"B",
+            "analysis":""
+        },
+        {
+            "content":" Comrade Li Dazhao, _____ librarian of Beijing University, was one of the founders of the Chinese Communist Party.",
+            "A":"sometimes ",
+            "B":"sometime ",
+            "C":" some time",
+            "D":" some times",
+            "answers":"B",
+            "analysis":""
+        },
+        {
+            "content":"Alice was very sorry to hear that her grandmother had _____ two days before.",
+            "A":"broken off",
+            "B":"broken off",
+            "C":"given away",
+            "D":"passed away",
+            "answers":"D",
+            "analysis":""
+        },
+        {
+            "content":"Radar enables the pilot of an airliner to take off, fly and land in _____.",
+            "A":"danger",
+            "B":"comfort",
+            "C":"continuity",
+            "D":"safety",
+            "answers":"D",
+            "analysis":""
+        },
+        {
+            "content":"Our Party has always devoted great attention to raising the living _____ of the working people.",
+            "A":"cost",
+            "B":"situation",
+            "C":"level ",
+            "D":"standard",
+            "answers":"D",
+            "analysis":""
+        },
+        {
+            "content":"It was _____ by the railway board that the cost of rail fares would be increased by ten percent.",
+            "A":"noticed",
+            "B":"stated",
+            "C":"suggested",
+            "D":"noted",
+            "answers":"B",
+            "analysis":""
+        },
+        {
+            "content":" I ____ her not to walk on the thin ice but she would not listen to me.",
+            "A":"warned ",
+            "B":"persuaded",
+            "C":"suggested",
+            "D":"notice",
+            "answers":"A",
+            "analysis":""
+        },
+        {
+            "content":" The microphone enabled them to keep in touch, in other words, it made it _____ for them to contact each other.",
+            "A":"likely",
+            "B":"capable",
+            "C":"possible",
+            "D":"probable",
+            "answers":"C",
+            "analysis":""
+        },
+        {
+            "content":" In spite of the thunderstorm, the children slept _____ all night.",
+            "A":"densely",
+            "B":"soundly",
+            "C":"loudly",
+            "D":"noisily",
+            "answers":"B",
+            "analysis":""
+        },
+        {
+            "content":"He thought this was the first pair of shoes that had fitted him _____.",
+            "A":"perfectly",
+            "B":"justly",
+            "C":"fairly",
+            "D":"rightly",
+            "answers":"A",
+            "analysis":""
+        },
+        {
+            "content":"The _____ of his clothes indicated too clearly that he had been playing football.",
+            "A":"state ",
+            "B":"condition ",
+            "C":"occasion ",
+            "D":"situation",
+            "answers":"A",
+            "analysis":""
+        },
+        {
+            "content":" Stressful environments lead to unhealthy behaviors such as poor eating habits, which _____ increase the risk of heart disease.",
+            "A":"in turn",
+            "B":"in turn",
+            "C":"by chance",
+            "D":"by turns",
+            "answers":"A",
+            "analysis":""
+        },
+        {
+            "content":"And you find that you're not to be _____ with a position of real responsibility.",
+            "A":"offered",
+            "B":"trusted",
+            "C":"furnished",
+            "D":"equipped",
+            "answers":"B",
+            "analysis":""
+        },
+        {
+            "content":" There was a good _____ of the countryside from the front of the bus.",
+            "A":"sight ",
+            "B":"view ",
+            "C":"scene ",
+            "D":"scenery",
+            "answers":"B",
+            "analysis":""
+        }
+    ]
+}

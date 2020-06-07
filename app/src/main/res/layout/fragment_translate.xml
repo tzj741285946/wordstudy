@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/translate_bar_name"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- 内容区 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!--android:layout_margin="@dimen/translate_et_margin"-->
+
+        <EditText
+            android:id="@+id/et_translate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/translate_et_height"
+            android:background="@drawable/translate_shape_et_bg"
+            android:gravity="top"
+            android:hint="@string/translate_et_hint"
+            android:textColorHint="@color/translate_et_hint"
+            android:textColorLink="@android:color/black"
+            android:textCursorDrawable="@drawable/translate_shape_et_cursor"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <!--<TextView-->
+            <!--android:id="@+id/translate_tv_chinese"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="2dp"-->
+            <!--android:text="@string/language_chinese"-->
+            <!--android:textColor="@color/text_color_black"-->
+            <!--android:textSize="16sp"-->
+            <!--app:layout_constraintBaseline_toBaselineOf="@+id/translate_tv_english"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--android:layout_marginStart="2dp" />-->
+
+            <!--<!– translate_btn_change –>-->
+            <!--<ImageButton-->
+            <!--android:id="@+id/translate_image_btn_change"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:background="@color/white"-->
+            <!--android:padding="4dp"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/translate_btn_change"-->
+            <!--app:layout_constraintLeft_toRightOf="@+id/translate_tv_chinese"-->
+            <!--app:layout_constraintTop_toTopOf="parent"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintVertical_bias="0.0"-->
+            <!--android:layout_marginStart="8dp" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/translate_tv_english"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:text="@string/language_english"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textColor="@color/text_color_black"-->
+            <!--app:layout_constraintTop_toTopOf="parent"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--app:layout_constraintLeft_toRightOf="@+id/translate_image_btn_change"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--app:layout_constraintVertical_bias="0.0"-->
+            <!--android:layout_marginStart="8dp" />-->
+
+            <Button
+                android:id="@+id/btn_translate"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/button_selector"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:text="@string/translate_btn_text"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cut_line"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/translate_line_color" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/text_query"
+                        android:textColor="@color/text_color_black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/query"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                         />
+
+                </LinearLayout>
+
+                <include
+                    layout="@layout/cut_line" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/voice_msg"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="15sp" />
+
+                <!--<TextView-->
+                <!--android:id="@+id/voice_msg"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:text="@string/text_null" />-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/en_voice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="英式发音：" />
+
+                    <ImageView
+                        android:id="@+id/iv_en_voice"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="0dp"
+                        app:srcCompat="@drawable/ic_volume_24dp"/>
+
+                    <TextView
+                        android:id="@+id/en_voice_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/am_voice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="美式发音：" />
+
+                    <ImageView
+                        android:id="@+id/iv_am_voice"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="0dp"
+                        app:srcCompat="@drawable/ic_volume_24dp"/>
+
+                    <TextView
+                        android:id="@+id/am_voice_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+                <include
+                    layout="@layout/cut_line"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/base_mean"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/base_mean"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                   />
+
+                <include
+                    layout="@layout/cut_line"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/related_examples"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/related_examples"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                 />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

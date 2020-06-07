@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">单词学习</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">学习</string>
+    <string name="title_notifications">我的</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">翻译</string>
+    <string name="menu_gallery">学习</string>
+    <string name="menu_slideshow">成绩</string>
+
+    <string name="menu_set">设置</string>
+
+    <!-- 通用 -->
+    <string name="text_query">查询：</string>
+    <string name="voice_msg">发音信息：</string>
+    <string name="base_mean">基本释义：</string>
+    <string name="related_examples">相关例句：</string>
+    <string name="text_null">Hello World</string>
+    <string name="text_test">1 1 1\n2 2 2\n3 3 3\n4 4 4\n5 5 5\n6 6 6\n7 7 7\n8 8 8\n9 9 9\n10 10 10\n11 11 11\n12 12 12\n13 13 13\n14 14 14\n15 15 15\n16 16 16\n17 17 17\n18 18 18\n19 19 19\n20 20 20\n21 21 21\n</string>
+
+    <!-- 翻译界面标题栏按钮名称 -->
+    <string name="translate_action_add">加入单词本</string>
+    <!-- 翻译界面标题栏名称 -->
+    <string name="translate_bar_name">翻译</string>
+    <!-- 翻译界面编辑框内 hint 显示文本 -->
+    <string name="translate_et_hint">请输入翻译内容</string>
+    <!-- 翻译界面 翻译按钮 显示的文字 -->
+    <string name="translate_btn_text">翻    译</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

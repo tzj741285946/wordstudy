@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".ui.register.RegisterActivity">
+
+    <include
+        android:id="@+id/my_tBar"
+        layout="@layout/ui_comment_title"/>
+
+    <net.android.workStudy.customView.FrameEditText
+        android:id="@+id/frame_username"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_margin="@dimen/dp10"
+        app:text="用户名"
+        app:hind="请输入用户名"
+        android:layout_height="45dp"/>
+
+    <net.android.workStudy.customView.FrameEditText
+        android:id="@+id/frame_password"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/dp10"
+        app:text="密码"
+        app:hind="请输入密码"
+        android:layout_height="45dp"/>
+
+    <net.android.workStudy.customView.FrameEditText
+        android:id="@+id/frame_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/dp10"
+        app:text="确认密码"
+        app:hind="请输入确认密码"
+        android:layout_height="45dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp40"
+        android:background="@drawable/login_gradient_bg"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp60"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp16"
+        android:text="注 册"/>
+</LinearLayout>

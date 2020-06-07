@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/dp10"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/color_d62917"
+        android:src="@mipmap/ic_logo"
+        android:textSize="@dimen/sp25"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="易 记 词"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/color_d62917"
+        android:textSize="@dimen/sp25"/>
+
+    <net.android.workStudy.customView.FrameEditText
+        android:id="@+id/frame_username"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        app:text="用户名"
+        app:hind="请输入用户名"
+        android:layout_height="45dp"/>
+
+    <net.android.workStudy.customView.FrameEditText
+        android:id="@+id/frame_password"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp10"
+        app:text="密码"
+        app:hind="请输入密码"
+        android:layout_height="45dp"/>
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="立即注册"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp60"
+        android:textColor="@color/color_33"
+        android:textSize="@dimen/sp14"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp40"
+        android:background="@drawable/login_gradient_bg"
+        android:layout_marginTop="@dimen/dp10"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp16"
+        android:text="登 录"/>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="功能">
+        <menu>
+            <item
+                android:id="@+id/nav_study"
+                android:icon="@mipmap/icon_study"
+                android:title="@string/menu_gallery" />
+            <item
+                android:id="@+id/nav_translate"
+                android:icon="@mipmap/icon_translate"
+                android:title="@string/menu_home" />
+            <item
+                android:id="@+id/nav_grade"
+                android:icon="@mipmap/icon_grade"
+                android:title="@string/menu_slideshow" />
+        </menu>
+    </item>
+
+    <item android:title="设置">
+        <menu>
+            <item
+                android:id="@+id/nav_set"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_set" />
+        </menu>
+    </item>
+
+</menu>
